@@ -1,0 +1,70 @@
+body
+{	font-family: 'Staatliches', cursive;
+}
+h1
+{	
+	text-align:center;
+	width:100%;
+	position:absolute;
+	top:5%;
+}
+nav ul
+{	margin:0;
+	padding:0;
+	list-style:none;
+	float:left;
+	position:absolute;
+	top:0%;
+}
+nav li
+{	display:inline;
+	line-height:40px;
+	margin-left:70px;
+	padding-top:10px;
+	width:70%;
+	position:relative;
+	font-size:1.5rem;
+}
+#imagec
+{	position:absolute;
+	top:20%;
+	right:60%;
+	text-align:center;
+	font-size:1.8rem;
+}
+#imagecc
+{	position:absolute;
+	top:20%;
+	right:20%;
+	text-align:center;
+	font-size:1.8rem;
+}
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s; 
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+#ful
+{	background-color:black;
+	color:white;
+	position:absolute;
+	width:100%;
+	top:100%;
+	text-align:center;
+}
