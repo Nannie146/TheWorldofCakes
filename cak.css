@@ -1,0 +1,33 @@
+body
+{	font-family: 'Staatliches', cursive;
+}
+#bck
+{	font-size:1.8rem;
+} 
+nav a:hover
+{	color:#000;
+}
+.text
+{	font-size:1.8rem;
+	text-align:center;
+	font-weight:bold;
+	color:#870a82;
+}
+.grow img {
+  height: 300px;
+  width: 300px;
+	
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.grow img:hover {
+  width:400px;
+  height:400px;
+}
+.mnu h1
+{	text-align:center;
+	font-size:3rem;
+}

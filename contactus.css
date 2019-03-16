@@ -1,0 +1,31 @@
+body
+{	font-family: 'Staatliches', cursive;
+}
+nav ul
+{	margin:0;
+	padding:0;
+	list-style:none;
+	position:absolute;
+	top:0.3%;	
+}
+nav li
+{	display:inline;
+	line-height:40px;
+	margin-left:70px;
+	padding-top:10px;
+	width:70%;
+	position:relative;
+	font-size:1.5rem;
+}
+#ctc
+{	text-align:center;
+	font-size:1.5rem;
+}
+#f
+{	background-color:black;
+	color:white;
+	position:absolute;
+	width:100%;
+	top:100%;
+	text-align:center;
+}

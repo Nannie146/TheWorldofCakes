@@ -1,0 +1,76 @@
+body
+{	font-family: 'Staatliches', cursive;
+}
+
+nav ul
+{	margin:0;
+	padding:0;
+	list-style:none;
+}
+nav li
+{	display:inline;
+	line-height:40px;
+	margin-left:70px;
+	padding-top:10px;
+	width:70%;
+	position:relative;
+	font-size:1.5rem;
+	color:#0042ff;
+}
+.bk
+{	background:url(bk.jpg) no-repeat;
+	-webkit-background-size:cover; 
+	background-size: cover;
+	height:100vh;
+	position:relative;
+}
+.wrapper
+{	color:black;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.wrapper h2
+{	font-size:2.4rem;
+	text-align:center;
+}
+.wrapper h1
+{	font-size:2.4rem;
+	text-align:center;
+}
+.wrapper span
+{	margin-left:5rem;
+}
+#intro
+{	text-align:center;
+}
+#logo
+{	position:absolute;
+	top:15%;
+	left:10%;
+}
+.form_code
+{	text-align:center;
+}
+.form_code .post_code
+{	display:block;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:2rem;
+	padding:.6rem;
+	border:none;
+	outline:none;
+}
+nav a:hover
+{	color:#000;
+}
+#foo
+{	background-color:black;
+	color:white;
+	position:absolute;
+	width:100%;
+	top:100%;
+	text-align:center;
+}
